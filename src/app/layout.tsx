@@ -4,6 +4,7 @@ import "./globals.css"
 import Sidebar from './ui/sidebar'
 import { SidebarProvider } from './ui/Sidebar/sidebar-provider'
 
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin", "cyrillic"],
@@ -28,4 +29,4 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </body>
     </html>
   )
-}
+

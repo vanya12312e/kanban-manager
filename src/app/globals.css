@@ -6,9 +6,11 @@
 }
 
 @theme inline {
+
   --font-sans: var(--font-inter);
   --color-sidebar-bg: #fafafa;
   --color-paragraph-secondary: #454848;
+
 }
 
 @media (prefers-color-scheme: dark) {
