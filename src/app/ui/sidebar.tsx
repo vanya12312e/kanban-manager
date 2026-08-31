@@ -1,5 +1,6 @@
 import React from 'react'
 import SidebarHeader from './Sidebar/sidebar-header'
+import SidebarNavigation from './Sidebar/sidebar-navigation'
 
 type SidebarContent = React.ReactNode
 
@@ -16,6 +17,7 @@ const Sidebar = () => {
 				<SidebarHeader />
 			</section>
 			<p className='text-[#667085]'>General</p>
+			<SidebarNavigation />
 		</aside>
 	)
 }
